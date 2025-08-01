@@ -1,0 +1,35 @@
+.formWrapper {
+  min-height: 100vh;
+  background: #11141a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: #181c23;
+  border-radius: 18px;
+  padding: 40px 24px 28px 24px;
+  min-width: 350px;
+  max-width: 95vw;
+  box-shadow: 0 2px 24px #0004;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.error {
+  color: #ff4d4f;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.submitBtn {
+  margin-top: 20px;
+}
