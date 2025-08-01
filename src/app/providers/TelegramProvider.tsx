@@ -16,8 +16,6 @@ export const TelegramProvider: React.FC<TelegramProviderProps> = ({ children }) 
         if (window.Telegram?.WebApp) {
             // Сообщаем Telegram, что приложение готово
             window.Telegram.WebApp.ready();
-            // Расширяем интерфейс на весь экран
-            window.Telegram.WebApp.expand();
         }
     }, []);
 
