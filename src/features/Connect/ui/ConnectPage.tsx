@@ -15,8 +15,8 @@ interface ConnectFormValues {
 const getTelegramUser = () => ({
     id: 1234567,
     username: 'Aquaryqq',
-    first_name: 'Иван',
-    last_name: 'Иванов',
+    first_name: '',
+    last_name: '',
     photo_url: 'https://robohash.org/telegramUser'
 });
 
